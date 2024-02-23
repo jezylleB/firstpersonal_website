@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Raleway:wght@900&display=swap');
+*{ margin:0%;
+    padding:0%;
+    scroll-behavior: smooth;
+    font-family:  sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:#eff4fd ;
+}
+
+nav{
+    
+ font-weight: bold;
+ font-size: large;  
+}
+
+
+
+nav:hover{
+    color:red;
+}
+
+.text{
+    margin-left: 8%;
+    color:solid rgb(0, 0, 0);
+    margin-top: 300px;
+
+}
+ 
+
+span{
+    color:orange
+}
+
+.text p{
+   color:#555;
+    line-height: 22px;
+    font-size: larger;
+   
+}
+
+.text a{
+    background: #212121;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(255, 245, 245);
+    display: inline-block;
+    border-radius: 5px;
+    
+}
+
+
+.text h1{
+    font-size: 65px;
+   
+}
+
+.images img{
+    height: 100%;
+    position:absolute;
+    left:50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;;
+}
+
+.icons{
+    position:absolute;
+    width: 170px;
+    display:flex;
+    top: 480px;
+    margin-left: 90px;
+    justify-content: space-between;
+}
+
+.icons a{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    font-size: 60px;
+    color: #000000;
+}
+
+.images:hover .shape{
+    bottom:40px;
+}
+.icons a:hover{
+color: orange;
+}
+
+
+.images .Me{
+    
+    height: 400px;
+    width: 300x;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    border-radius: 50%;
+}
+
+.images .shape{
+margin-left: 250px;
+margin-top: 50px;
+height: 600px;
+}
+
+.aboutme{
+    width: 100%;
+    height: 70%;
+    background:#dbdee4 ;
+    
+}
+
+.aboutme img{
+    width: 430px;
+    margin-bottom: 600px;
+    block-size: auto;
+}
+
+.aboutme text{
+    width: 550px;
+   margin-bottom: 600px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text h2{
+    color:#000000;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.text h5{
+    color:rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.text p{
+    color:#555;
+    letter-spacing: 1px;
+    font-size: 19px;
+    margin-bottom: 900px;
+}
+
+footer {
+   position:relative;
+   width: 100%;
+   height: 400px;
+   background: #504d4d;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
